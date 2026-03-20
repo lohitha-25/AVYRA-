@@ -6,7 +6,7 @@
 ---
 
 ## 🎥 Demo Video  
-👉 Coming soon (will be updated)
+https://www.loom.com/share/311bbd16e3874b758b317d65a879fb3b
 
 ---
 
@@ -73,6 +73,7 @@ With over **50 million gig workers in India**, external disruptions like extreme
 
 
 ## 👤 Persona — Salman (Swiggy Delivery Partner, Hyderabad)
+👉 View Full Persona: 
 
 | Field                     | Details |
 |--------------------------|--------|
