@@ -74,8 +74,11 @@ With over **50 million gig workers in India**, external disruptions like extreme
 
 ## 👤 Persona — Salman (Swiggy Delivery Partner, Hyderabad)
 
-👉 🌐 View Interactive Persona:  
-https://lohitha-25.github.io/AVYRA/docs/persona.html
+## 👤 Persona  
+
+Below is a snapshot of our dynamic persona system:
+
+![Persona](persona.png)
 
 | Field                     | Details |
 |--------------------------|--------|
