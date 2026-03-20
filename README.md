@@ -73,7 +73,7 @@ With over **50 million gig workers in India**, external disruptions like extreme
 
 
 ## 👤 Persona — Salman (Swiggy Delivery Partner, Hyderabad)
-👉 View Full Persona: 
+👉 🌐 View Interactive Persona: [Open Persona](docs/persona.html)
 
 | Field                     | Details |
 |--------------------------|--------|
