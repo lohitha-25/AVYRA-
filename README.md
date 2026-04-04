@@ -1,191 +1,182 @@
-# 🚀 AVYRA — Income Stability Engine for Gig Workers
-> Guidewire DEVTrails 2026 | Hackathon Submission  
-> Adaptive Parametric Insurance System  
+🚀 AVYRA — Income Stability Engine for Gig Workers
 
----
+Guidewire DEVTrails 2026 | Hackathon Submission
+Adaptive Parametric Insurance System
 
-## 🎥 Demo Video
-https://www.loom.com/share/311bbd16e3874b758b317d65a879fb3b
+🎥 Demo Video
 
-PHASE-2: https://www.loom.com/share/43ba6dcb7b814295963d27b18a990855
+👉 https://www.loom.com/share/311bbd16e3874b758b317d65a879fb3b
 
----
+👉 Phase 2 Demo: https://www.loom.com/share/43ba6dcb7b814295963d27b18a990855
 
-## 📌 About AVYRA
-AVYRA is an **Income Stability Engine** that predicts disruptions, guides workers to earn before impact, and dynamically insures only the remaining income loss.
+📌 About AVYRA
 
----
+AVYRA is an Income Stability Engine that predicts disruptions, guides gig workers to earn before impact, and dynamically insures only the remaining income loss.
 
-# 🧩 Phase 1: Core System (Weeks 1–2)
+It is designed for platforms like Zomato, Swiggy, Zepto, helping workers stay financially stable during uncertain conditions like rain, pollution, and outages.
 
-## 🔐 Registration Process
-- User enters:
-  - Name  
-  - Phone  
-  - City  
-  - Platform (Swiggy, Zomato, etc.)  
-  - Earnings  
+💡 Core Idea
 
-👉 Creates worker profile
+Unlike traditional insurance:
 
----
+❌ Claim after loss
+❌ Fixed premiums
+❌ Manual process
 
-## 🛡 Insurance Policy Management
-- Users select:
-  - Risk Zone (Low / Medium / High)  
-  - Plan (Basic / Standard / Premium)  
+AVYRA:
 
-👉 Custom coverage based on risk  
+✅ Predicts disruptions
+✅ Guides workers proactively
+✅ Covers only remaining loss
+✅ Fully automated system
+🧩 Phase 1: Core System (Weeks 1–2)
+🔐 Worker Registration
+Name, phone, city
+Platform selection
+Daily earnings input
+Risk zone selection
 
----
+👉 Creates a complete worker profile
 
-## 💰 Dynamic Premium Calculation
+🛡 Insurance Policy Management
+Risk Zone: Low / Medium / High
+Plan: Basic / Standard / Premium
+
+👉 Personalized coverage based on risk
+
+💰 Dynamic Premium Calculation
 
 Formula:
-Final Premium = Base × Zone × Season × Stability  
+
+Final Premium = Base × Zone × Season × Stability
 
 Example:
-₹49 × 1.3 × 1.2 × 0.9 = ₹69/week  
+
+₹49 × 1.3 × 1.2 × 0.9 = ₹69/week
 
 Factors:
-- Zone risk  
-- Season (Monsoon, Summer)  
-- Stability score  
 
----
-
-## 📊 Dashboard Features
-
-- Earnings tracking  
-- Protected amount  
-- Weekly chart  
-- Claims history  
-
----
-
-## 🧠 Income Stability Score
+Zone risk
+Season (Monsoon, Summer)
+Stability score
+📊 Dashboard Features
+Earnings tracking
+Protected amount
+Weekly performance chart
+Claims history
+🧠 Income Stability Score
 
 Score (0–100) based on:
-- Earnings consistency  
-- Zone risk  
-- Claim frequency  
 
-👉 Higher score = lower premium  
+Earnings consistency
+Zone risk
+Claim frequency
 
----
+👉 Higher score = lower premium
 
-## 💡 Key Innovation
+⚡ Phase 2: Automation & Protection (Weeks 3–4)
+🎯 Theme: Protect Your Worker
 
-AVYRA:
-✔ Predicts disruptions  
-✔ Guides workers to earn before impact  
-✔ Covers only remaining loss  
+AVYRA introduces a zero-touch automated insurance system
 
----
+🤖 Automated Triggers
+🌧 Rain: > 40mm/hr
+🔥 Heatwave: > 42°C
+🌫 AQI: > 400
+🚫 Curfew: Government restriction
+⚙ Platform outage
 
-# ⚡ Phase 2: Automation & Protection (Weeks 3–4)
+👉 Automatically triggers payout
 
-## 🎯 Theme: Protect Your Worker
+📡 Mock API (Proof)
 
-AVYRA enables **zero-touch automated insurance claims**
+We simulate real-world disruptions using Mock APIs.
 
----
+Endpoint:
 
-## 🤖 Automated Triggers
+GET /api/triggers
 
-1. 🌧 Rain Trigger  
-   - > 40mm/hr → payout  
+Sample Response:
 
-2. 🔥 Heatwave  
-   - > 42°C → payout  
+{
+  "weather": { "rain_mm": 68, "threshold": 40, "triggered": true },
+  "aqi": { "value": 210, "threshold": 200, "triggered": true }
+}
+📸 Mock API Running Screenshot
+<img src="mock.jpg" width="700"/>
+⚡ Zero-Touch Claims System
 
-3. 🌫 AQI Trigger  
-   - AQI > 400 → payout  
+No manual claim process required
 
-4. 🚫 Curfew  
-   - Govt restriction → full payout  
+Flow:
 
-5. ⚙ Platform Outage  
-   - Downtime → compensation  
+Trigger → Detection → Loss Calculation → Instant Payout
+💥 Dynamic Coverage Logic
 
----
+Formula:
 
-## ⚡ Zero-Touch Claims System
-
-No user action required:
-
-✔ Detect disruption  
-✔ Calculate loss  
-✔ Auto credit payout  
-
----
-
-## 💰 Dynamic Coverage Logic
+Payout = Target Income − Earned Income
 
 Example:
 
-- Target income: ₹700  
-- Earned: ₹450  
-- Loss: ₹250  
+Target: ₹700
+Earned: ₹450
+Payout: ₹250
 
-👉 AVYRA pays ₹250 automatically  
+✔️ Fair compensation
+✔️ Unique innovation
 
----
+💳 Payment Simulation
+Razorpay-style UI
+“₹250 credited to PhonePe •••9876”
+Instant confirmation
+🤖 AI Integration
+Dynamic pricing model
+Risk-based premium calculation
+Smart payout engine
+Income prediction & recommendations
+🖥️ Tech Stack
+Frontend: React
+Backend: Node.js
+Database: Supabase / Mock API
+APIs: Weather + AQI
+Tools: Mockoon
+🎯 Features Summary
 
-## 🎯 Best User Experience
+✔ Registration system
+✔ Policy management
+✔ Dynamic premium calculation
+✔ Automated triggers
+✔ Zero-touch claims
+✔ Smart payout system
 
-- No claim forms  
-- Instant alerts  
-- Automatic payout  
-- Simple dashboard  
-
----
-
-## 🤖 AI Integration
-
-- Dynamic pricing model  
-- Risk-based premium  
-- Smart payout calculation  
-
----
-
-## 🖥️ Tech Stack
-
-- Frontend: React  
-- Backend: Node.js  
-- Database: Supabase / Mock API  
-- APIs: Weather + AQI  
-
----
-
-## 🎯 Features Summary
-
-✔ Registration  
-✔ Policy selection  
-✔ Dynamic premium  
-✔ Claims automation  
-✔ Zero-touch system  
-
----
-
-## 👥 Team
-
-- Lohitha Emmadisetty  
-- Shanti Priya  
-- Kamakshi  
-- Charvi Mahathi  
-- Jyostnavi  
-
----
-
-## 💥 Final Idea
+🏁 Innovation Highlights
+AI-based insurance pricing
+Real-time disruption detection
+Fully automated claims system
+Dynamic payout logic
+Proactive earning guidance
+💥 Final Idea
 
 Traditional Insurance:
-→ Claim after loss  
+→ Claim after loss
 
 AVYRA:
-→ Predict → Guide → Protect  
+→ Predict → Guide → Protect
 
-👉 Workers earn first, then get protected  
+👉 Workers earn first, then get protected
 
----
+👥 Team
+Lohitha Emmadisetty
+Shanti Priya
+Kamakshi
+Charvi Mahathi
+Jyostnavi
+⭐ Final Note
+
+AVYRA redefines insurance for gig workers by making it:
+
+⚡ Smart
+⚡ Automated
+⚡ Predictive
+⚡ Worker-first
