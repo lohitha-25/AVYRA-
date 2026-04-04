@@ -6,8 +6,8 @@
 
 ## 🎥 Demo Video
 https://www.loom.com/share/311bbd16e3874b758b317d65a879fb3b
-PHASE-2:
-https://www.loom.com/share/43ba6dcb7b814295963d27b18a990855
+
+PHASE-2: https://www.loom.com/share/43ba6dcb7b814295963d27b18a990855
 
 ---
 
