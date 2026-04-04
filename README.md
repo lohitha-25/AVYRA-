@@ -1,73 +1,189 @@
-# React + TypeScript + Vite
+# 🚀 AVYRA — Income Stability Engine for Gig Workers
+> Guidewire DEVTrails 2026 | Hackathon Submission  
+> Adaptive Parametric Insurance System  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 🎥 Demo Video
+https://www.loom.com/share/311bbd16e3874b758b317d65a879fb3b
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📌 About AVYRA
+AVYRA is an **Income Stability Engine** that predicts disruptions, guides workers to earn before impact, and dynamically insures only the remaining income loss.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+# 🧩 Phase 1: Core System (Weeks 1–2)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🔐 Registration Process
+- User enters:
+  - Name  
+  - Phone  
+  - City  
+  - Platform (Swiggy, Zomato, etc.)  
+  - Earnings  
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+👉 Creates worker profile
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🛡 Insurance Policy Management
+- Users select:
+  - Risk Zone (Low / Medium / High)  
+  - Plan (Basic / Standard / Premium)  
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+👉 Custom coverage based on risk  
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 💰 Dynamic Premium Calculation
+
+Formula:
+Final Premium = Base × Zone × Season × Stability  
+
+Example:
+₹49 × 1.3 × 1.2 × 0.9 = ₹69/week  
+
+Factors:
+- Zone risk  
+- Season (Monsoon, Summer)  
+- Stability score  
+
+---
+
+## 📊 Dashboard Features
+
+- Earnings tracking  
+- Protected amount  
+- Weekly chart  
+- Claims history  
+
+---
+
+## 🧠 Income Stability Score
+
+Score (0–100) based on:
+- Earnings consistency  
+- Zone risk  
+- Claim frequency  
+
+👉 Higher score = lower premium  
+
+---
+
+## 💡 Key Innovation
+
+AVYRA:
+✔ Predicts disruptions  
+✔ Guides workers to earn before impact  
+✔ Covers only remaining loss  
+
+---
+
+# ⚡ Phase 2: Automation & Protection (Weeks 3–4)
+
+## 🎯 Theme: Protect Your Worker
+
+AVYRA enables **zero-touch automated insurance claims**
+
+---
+
+## 🤖 Automated Triggers
+
+1. 🌧 Rain Trigger  
+   - > 40mm/hr → payout  
+
+2. 🔥 Heatwave  
+   - > 42°C → payout  
+
+3. 🌫 AQI Trigger  
+   - AQI > 400 → payout  
+
+4. 🚫 Curfew  
+   - Govt restriction → full payout  
+
+5. ⚙ Platform Outage  
+   - Downtime → compensation  
+
+---
+
+## ⚡ Zero-Touch Claims System
+
+No user action required:
+
+✔ Detect disruption  
+✔ Calculate loss  
+✔ Auto credit payout  
+
+---
+
+## 💰 Dynamic Coverage Logic
+
+Example:
+
+- Target income: ₹700  
+- Earned: ₹450  
+- Loss: ₹250  
+
+👉 AVYRA pays ₹250 automatically  
+
+---
+
+## 🎯 Best User Experience
+
+- No claim forms  
+- Instant alerts  
+- Automatic payout  
+- Simple dashboard  
+
+---
+
+## 🤖 AI Integration
+
+- Dynamic pricing model  
+- Risk-based premium  
+- Smart payout calculation  
+
+---
+
+## 🖥️ Tech Stack
+
+- Frontend: React  
+- Backend: Node.js  
+- Database: Supabase / Mock API  
+- APIs: Weather + AQI  
+
+---
+
+## 🎯 Features Summary
+
+✔ Registration  
+✔ Policy selection  
+✔ Dynamic premium  
+✔ Claims automation  
+✔ Zero-touch system  
+
+---
+
+## 👥 Team
+
+- Lohitha Emmadisetty  
+- Shanti Priya  
+- Kamakshi  
+- Charvi Mahathi  
+- Jyostnavi  
+
+---
+
+## 💥 Final Idea
+
+Traditional Insurance:
+→ Claim after loss  
+
+AVYRA:
+→ Predict → Guide → Protect  
+
+👉 Workers earn first, then get protected  
+
+---
